@@ -6,7 +6,7 @@ public:
         a.push_back(0);
         int comp;
         //use complement approach in this question complement= target-number
-        //unordered_set<int> x;
+       
         std::vector<int>::iterator k;
         for(int j=0;j<nums.size();++j){
             comp = target - nums[j];
